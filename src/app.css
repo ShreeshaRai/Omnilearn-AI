@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  font-family: Arial;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.center {
+  margin-top: 100px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.chatbox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.user {
+  text-align: right;
+  background: #22c55e;
+  margin: 5px;
+  padding: 10px;
+}
+
+.ai {
+  text-align: left;
+  background: #334155;
+  margin: 5px;
+  padding: 10px;
+}
+button {
+  poition: relative;
+  z-index: 10;
+  cursor : pointer;
+}
+.auth-box {
+  position: relative;
+  z-index: 5;
+
+}
+.overlay {
+  pointer-events :none;
+  position: absolute;
+  width:100%;
+  height:100%;
+}
